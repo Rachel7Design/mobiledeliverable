@@ -1,0 +1,162 @@
+
+
+.skip {
+    position: absolute;
+    top: -20px;
+    
+}
+
+
+a.skip:focus {
+    background-color: #00274C;
+    position: absolute;
+    top: 20px;
+}
+
+
+h1 {
+
+    margin-top: 15px;
+}
+
+body {
+    font-family: "Nunito Sans";
+    
+}
+
+header {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    background-color: #00274C;
+}
+
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.header {
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-items: center;
+    align-items: center;
+    text-align: center;   
+}
+
+nav {
+    /* position: sticky; */
+    top: 0;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    padding-top: 25px;
+    /* ask gsi why sticky not working */
+}
+
+
+.column > li {
+    background-color: #00274C;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    font-size: 11px;
+    
+}
+
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+    
+footer {
+    background-color:#00274C;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    max-width: 100%;
+   
+}
+
+section  {
+    grid-column: 2 / 3;
+    margin: 5px;
+    text-align: center;
+    
+}
+
+h1 {
+
+    background-color: #FFCB05;
+    text-align: center;
+    padding: 5px;
+    font-weight: bolder;
+    border-style: solid;
+    border-width: 7px;
+    border-color: #00274C;
+    margin-bottom: 10px;
+}
+h2 {
+    color: #00274C;
+    padding: 10px;
+    border-bottom: #00274C;
+    border: 4px;
+    border-style: solid; 
+    grid-column: 1/ 3;
+    font-weight: bold;
+    margin: 10px;
+    /* ask gsi about why grid column not working  */
+}
+
+ p {
+    padding: 8px;
+}
+
+ img.home_image {
+
+    border-radius: 10px;
+    height: 300px;
+    width: 250px;
+    grid-column: 2 / span 2;
+    border-style: outset;
+    border-color: #FFCB05;
+    border-width: 5px;
+}
+
+li.logo  {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    padding: 5px;
+
+}
+
+iframe {
+
+    margin: 10px;
+
+}
+#bold {
+    font-weight: bold;
+    color:#00274C
+}
+
+li {
+    padding: 8px;
+    list-style: none;
+}
+
+.no {
+    border-width: 0;
+}
